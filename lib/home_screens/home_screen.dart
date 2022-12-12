@@ -93,7 +93,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 borderRadius: BorderRadius.circular(10.r),
               ),
               child: Padding(
-                padding: EdgeInsets.symmetric(horizontal: 5.w, vertical: 5.h),
+                padding: EdgeInsets.symmetric(horizontal: 2.w, vertical: 5.h),
                 child: Row(
                   children: [
                     Image.asset('assets/images/Stack of Money.png',
@@ -193,8 +193,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Row(
                     children: [
                       Image.asset('assets/images/qr.png',
-                        width: 32.w, height: 32.h,),
-                      SizedBox(width: 3.w,),
+                        width: 28.w, height: 28.h,),
+                      SizedBox(width: 1.5.w,),
                       Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,

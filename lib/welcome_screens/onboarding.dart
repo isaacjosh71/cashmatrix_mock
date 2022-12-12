@@ -2,6 +2,7 @@
 import 'dart:async';
 
 import 'package:cashmatrix/welcome_screens/sign_in_page.dart';
+import 'package:cashmatrix/welcome_screens/splashA.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -20,7 +21,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
     Timer(const Duration(seconds: 4),
             ()=>Navigator.pushReplacement(context,
             MaterialPageRoute(
-                builder: (context)=>const SignIn()
+                builder: (context)=>const SplashA()
             )));
   }
   @override

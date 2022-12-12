@@ -12,7 +12,7 @@ class CardsWidget extends StatefulWidget {
 }
 
 class _CardsWidgetState extends State<CardsWidget> {
-  PageController pageController = PageController(viewportFraction: 0.7);
+  PageController pageController = PageController(viewportFraction: 0.8);
   int currentIndex = 0;
 
   @override

@@ -237,7 +237,7 @@ class _InputEmailState extends State<InputEmail> {
                                             shape: MaterialStateProperty.all(RoundedRectangleBorder(
                                                 borderRadius: BorderRadius.circular(15.r))),
                                             padding: MaterialStateProperty.all(
-                                                EdgeInsets.symmetric(horizontal: 91.w, vertical: 19.h)),
+                                                EdgeInsets.symmetric(horizontal: 80.w, vertical: 19.h)),
                                             textStyle: MaterialStateProperty.all(TextStyle(
                                                 fontSize: 19.sp,
                                                 fontWeight: FontWeight.w500,
