@@ -71,7 +71,7 @@ class _BvnNumberState extends State<BvnNumber> {
                     fontWeight: FontWeight.w400),
               ),
             ),
-            SizedBox(height: 3.h,),
+            SizedBox(height: 3.1.h,),
             Padding(
               padding: EdgeInsets.only(left: 30.w, right:15.w),
               child: TextFieldContainer(
